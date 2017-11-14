@@ -1,0 +1,123 @@
+body {
+    width: 80%;
+    height: 100%;
+    background-color: #CFFF8B;
+    margin: 0px auto;
+    padding: 50px 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/*----------left---------------*/
+
+.left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url("./cactus.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.titre {
+    font-size: 4em;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+}
+
+.left > img {
+    width: 400px;
+    height: auto;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+    float: left;
+}
+
+/*-----------right--------------*/
+
+.right {
+    width: 40%;
+    background-color: #fff;
+    height: 100%;
+    float: right;
+}
+
+.header > img {
+    width: 150px;
+    height: auto;
+}
+
+.header {
+    text-align: center;
+    margin: 0px auto;
+    background-color: #9bd8db;
+    padding: 20px 0px;
+}
+
+strong {
+    font-size: 1.2em;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+/*-------nav---------------*/
+
+.nav {
+    background-color: #cc932b;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.nav li {
+    padding: 10px;
+    background-color: #cc932b;
+    
+}
+.nav li.active {
+    background-color: #fff;
+    color: #9bd8db;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: #9bd8db;
+}
+
+i {color: brown;}
+ul { padding: 0px;}
+
+/*--------------container----------------*/
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+#skills li {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
